@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Music Survey</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+form {
+    width: 500px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+fieldset {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+textarea {
+    margin-top: 5px;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Music Survey</h2>
+
+<form>
+
+<label for="name">Name:</label>
+<input type="text" id="name" name="name">
+
+<label for="email">E-mail Address:</label>
+<input type="email" id="email" name="email">
+
+<label for="comments">Tell us about your favorite music:</label>
+<textarea id="comments" name="comments" cols="60" rows="3"></textarea>
+
+<fieldset>
+<legend>Favorite Music Genre</legend>
+
+<label>
+<input type="radio" name="genre" value="rock"> Rock
+</label>
+
+<label>
+<input type="radio" name="genre" value="pop"> Pop
+</label>
+
+<label>
+<input type="radio" name="genre" value="hiphop"> Hip-Hop
+</label>
+
+</fieldset>
+
+<fieldset>
+<legend>How Do You Listen to Music?</legend>
+
+<label>
+<input type="checkbox" name="listen" value="streaming"> Streaming Services
+</label>
+
+<label>
+<input type="checkbox" name="listen" value="radio"> Radio
+</label>
+
+<label>
+<input type="checkbox" name="listen" value="concerts"> Live Concerts
+</label>
+
+</fieldset>
+
+<label for="hours">How many hours per week do you listen to music?</label>
+<select id="hours" name="hours" size="3">
+<option>0-5 hours</option>
+<option>6-10 hours</option>
+<option>11-20 hours</option>
+<option>21+ hours</option>
+</select>
+
+<div class="buttons">
+<input type="submit" value="Submit Survey">
+<input type="reset" value="Reset Form">
+</div>
+
+<p>Contact: <a href="mailto:scootah@email.com">zaijin1017@gmail.com</a></p>
+
+</form>
+
+</body>
+</html>
