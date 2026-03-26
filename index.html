@@ -2,58 +2,46 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact | Jermarion Jackson</title>
-<link rel="stylesheet" href="styles.css">
+<title>CIS 209 Assignment Gallery</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <h1>Jermarion Jackson</h1>
-    <p>Contact Me</p>
+<h1>CIS 209 Assignment Gallery</h1>
+<h2>Jermarion Jackson</h2>
+<p>Course: CIS 209 – Advanced Web Development </p>
+<p>Links to all my completed assignments!.</p>
 </header>
 
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About Me</a></li>
-<li><a href="resume.html">Resume</a></li>
-<li><a href="projects.html">Projects</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-</nav>
+<table>
+<tr>
+<th>Assignment</th>
+<th>Description</th>
+<th>Link</th>
+</tr>
 
-<main>
-<section class="contact">
-<h1>Contact Me</h1>
 
-<form action="https://formspree.io/f/mvzwegzz" method="POST">
+<tr>
+<td>Movie 9</td>
+<td>Favorite movie page using a two-column table with embedded CSS.</td>
+</tr>
 
-<label for="name">Name:</label>
-<input type="text" id="name" name="name" required>
 
-<label for="email">Email:</label>
-<input type="email" id="email" name="email" required>
+<tr>
+<td>Music</td>
+<td>Favorite movie page using a two-column table with embedded CSS.</td>
+<td><a href="movie9.html">View Assignment</a></td>
+</tr>
 
-<label for="message">Message:</label>
-<textarea id="message" name="message" rows="5" required></textarea>
 
-<button type="submit">Send Message</button>
 
-</form>
-</section>
-</main>
+</table>
 
 <footer>
-    <p>&copy; 2026 Jermarion Jackson</p>
+<p>© 2026 Jermarion Jackson | CIS 209</p>
 </footer>
-
-<script>
-document.querySelector("form").addEventListener("submit", function() {
-    alert("Your message has been sent!");
-});
-</script>
 
 </body>
 </html>
